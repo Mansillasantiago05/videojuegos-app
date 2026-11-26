@@ -1,0 +1,13 @@
+@if (videojuego) {
+  <div>
+    <h2>Detalles</h2>
+    <h3>{{ videojuego.nombre }}</h3>
+   
+    <p><strong>Desarrollador:</strong> {{ videojuego.desarrollador }}</p>
+    <p><strong>Año:</strong> {{ videojuego.anio }}</p>
+    <p><strong>Género:</strong> {{ videojuego.genero }}</p>
+    <p><strong>Descripción:</strong> {{ videojuego.descripcion }}</p>
+  </div>
+} @else {
+  <p>Hacé clic en un videojuego para ver sus detalles.</p>
+}

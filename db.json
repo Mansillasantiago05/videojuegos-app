@@ -1,0 +1,37 @@
+{
+  "videojuegos": [
+    {
+      "id": "1",
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "desarrollador": "Nintendo",
+      "anio": 2017,
+      "genero": "Acción y aventura",
+      "descripcion": "Un mundo abierto donde el jugador explora libremente Hyrule, enfrentando criaturas, resolviendo acertijos y descubriendo secretos."
+    },
+    {
+      "id": "2",
+      "nombre": "The Witcher 3: Wild Hunt",
+      "desarrollador": "CD Projekt Red",
+      "anio": 2015,
+      "genero": "RPG",
+      "descripcion": "Sigue la historia de Geralt de Rivia mientras busca a Ciri en un enorme mundo lleno de misiones, criaturas y decisiones morales."
+    },
+    {
+      "id": "3",
+      "nombre": "Minecraft",
+      "desarrollador": "Mojang Studios",
+      "anio": 2011,
+      "genero": "Sandbox / Supervivencia",
+      "descripcion": "Un juego abierto donde los jugadores pueden construir, explorar y sobrevivir en un mundo generado proceduralmente."
+    },
+    {
+      "id": "otA_RHRTje8",
+      "nombre": "fifa",
+      "desarrollador": "ea",
+      "anio": 2026,
+      "genero": "deportes",
+      "descripcion": "juego de futbol"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

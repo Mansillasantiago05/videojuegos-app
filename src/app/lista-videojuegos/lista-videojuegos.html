@@ -1,0 +1,11 @@
+<h2>Lista de Videojuegos</h2>
+<ul>
+  @for (videojuego of videojuegos; track videojuego.id) {
+    <li>
+      {{ videojuego.nombre }}
+      <button (click)="onSeleccionar(videojuego)">Ver detalles</button>
+    </li>
+  } @empty {
+    <p>No hay videojuegos todavía.</p>
+  }
+</ul>

@@ -1,0 +1,15 @@
+<h2>Agregar Videojuego</h2>
+
+<form (ngSubmit)="onAgregarVideojuego()">
+  <label>Nombre:</label><br>
+  <input type="text" [(ngModel)]="nuevoVideojuego.nombre" name="nombre" required><br><br>
+  <label>Desarrollador:</label><br>
+  <input type="text" [(ngModel)]="nuevoVideojuego.desarrollador" name="desarrollador" required><br><br>
+  <label>Año:</label><br>
+  <input type="number" [(ngModel)]="nuevoVideojuego.anio" name="anio" required><br><br>
+  <label>Género:</label><br>
+  <input type="text" [(ngModel)]="nuevoVideojuego.genero" name="genero" required><br><br>
+  <label>Descripción:</label><br>
+  <textarea [(ngModel)]="nuevoVideojuego.descripcion" name="descripcion" required></textarea><br><br>
+  <button type="submit">Agregar</button>
+</form>
