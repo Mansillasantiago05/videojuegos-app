@@ -1,0 +1,22 @@
+div {
+  background: #fff;
+  border: 2px solid #0f3460;
+  border-radius: 12px;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #e94560;
+  margin-top: 0;
+}
+
+h3 {
+  color: #16213e;
+  font-size: 24px;
+}
+
+p {
+  color: #333;
+}

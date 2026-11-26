@@ -1,0 +1,35 @@
+h2 {
+  color: #16213e;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f5;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #0f3460;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #e94560;
+}
